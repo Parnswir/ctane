@@ -5,7 +5,7 @@ FIND_PACKAGE( Boost 1.40 COMPONENTS program_options REQUIRED )
 INCLUDE_DIRECTORIES( ${Boost_INCLUDE_DIR} )
 
 
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -Wall -O2 -Wno-sign-compare -Wextra")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -Wall -O2")
 FILE(GLOB_RECURSE DataSrcs data/*.cpp)
 FILE(GLOB_RECURSE AlgSrcs algorithms/*.cpp)
 FILE(GLOB_RECURSE UtilSrcs util/*.cpp)
