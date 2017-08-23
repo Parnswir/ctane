@@ -9,6 +9,7 @@
 #include <iostream>
 #include <map>
 #include <random>
+#include <functional>
 
 struct SubsetIterator {
     SubsetIterator(int, int);
